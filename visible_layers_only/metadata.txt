@@ -1,0 +1,18 @@
+[general]
+name=Visible Layers Only
+qgisMinimumVersion=3.0
+qgisMaximumVersion=4.99
+supportsQt6=True
+description=Adds a toggle button to the Layers panel toolbar that lists only the currently visible layers.
+about=Adds a checkable button to the native Layers panel toolbar. When enabled, the Layers panel hides every layer (and every group without visible content) that is not currently shown on the map canvas. It only changes what the panel displays: layer visibility, order and project contents are never modified. Works on QGIS 3.x (Qt5) and QGIS 4.x (Qt6).
+version=1.0.0
+author=danzig666
+email=5346511+danzig666@users.noreply.github.com
+homepage=https://github.com/danzig666/qgis-visible-layers-only
+repository=https://github.com/danzig666/qgis-visible-layers-only
+tracker=https://github.com/danzig666/qgis-visible-layers-only/issues
+category=Plugins
+tags=layers,layer tree,visibility,filter,legend,panel
+experimental=False
+deprecated=False
+icon=icons/visible_on.png
